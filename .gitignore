@@ -6,3 +6,8 @@ out
 *.log*
 .env*
 !.env.example
+/build
+/coverage
+*.tsbuildinfo
+next-env.d.ts
+.eslintcache
