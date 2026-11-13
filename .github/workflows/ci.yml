@@ -3,7 +3,7 @@
 #
 # Not here yet, added in phase 5 with the first screens: tests that every
 # screen refuses without the admin role, and the compatibility test against
-# the backend.
+# the backend. The two-factor rule in proxy.ts is tested now.
 name: CI
 
 on:
@@ -20,9 +20,13 @@ concurrency:
 
 jobs:
   check:
-    name: Typecheck, lint, build
+    name: Typecheck, lint, test, build
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      # Placeholders so `next build` can run; CI calls no real service.
+      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: pk_test_Y2xlcmsuZXhhbXBsZS5jb20k
+      CLERK_SECRET_KEY: sk_test_placeholder
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: pnpm/action-setup@73e46992e05b19abd31f2f3c20e0e7370d762115 # v6.1.1
@@ -35,6 +39,8 @@ jobs:
         run: pnpm typecheck
       - name: Lint
         run: pnpm lint
+      - name: Test (the two-factor rule)
+        run: pnpm test
       - name: Build
         run: pnpm build
 

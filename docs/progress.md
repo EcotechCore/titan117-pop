@@ -2,7 +2,7 @@
 
 The product owner portal's own log (the shared docs are copied from `titan117-web`). Update this file in the same commit as the work, newest first. Phases are in the [roadmap](01-launch-roadmap-v1.md); this repo is part of phase 0 (an empty app deployed behind two-factor) and phase 5 (the error report screens).
 
-**Now:** phase 0 in progress (9 Nov 2026): the empty Next.js app is scaffolded and checked locally. **Next step:** the Vercel project behind Clerk two-factor, branch protection, and the first commit of the app.
+**Now:** phase 0 in progress (13 Nov 2026): sign-in with a two-factor switch in code. **Next step:** the staff Clerk application in Invite-only mode, its keys in `.env.local` and Vercel, then a real sign-in on the deployed portal.
 
 ## Log
 
