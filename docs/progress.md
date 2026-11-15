@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 15 Nov 2026 · Shared docs synced: phase 5 error reports
+
+Decisions §45 and the owner checklist. **Next here:** the error screens (groups, a group's reports, mark fixed) on `errorReports.groups`, `groupReports` and `markFixed`, once Clerk Pro and required two-factor are in place (§37).
+
 ### 15 Nov 2026 · The owner checklist
 
 Every open item for the owner, from all three repos' logs, is now in one place: `docs/owner-checklist.md` (shared doc): decisions to confirm (§44 first), checks only the owner can run (phase 4's check), accounts and services, legal, vendors, before the beta. CLAUDE.md says new owner items go there in the same commit. At the owner's request, phase 5 starts before phase 4's check is run; that's recorded on the checklist for the owner to confirm.
