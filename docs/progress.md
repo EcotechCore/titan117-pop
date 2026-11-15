@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 15 Nov 2026 · Phase 5: setup and health (shared docs)
+
+Decisions §46 (the first-launch wizard, the checklist, the health check, disk thresholds) and its line on the owner checklist. Built in `titan117-desktop` on `phase-5-setup`; nothing changed in this repo's code.
+
 ### 15 Nov 2026 · Shared docs synced: phase 5 error reports
 
 Decisions §45 and the owner checklist. **Next here:** the error screens (groups, a group's reports, mark fixed) on `errorReports.groups`, `groupReports` and `markFixed`, once Clerk Pro and required two-factor are in place (§37).
