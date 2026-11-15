@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 15 Nov 2026 · The owner checklist
+
+Every open item for the owner, from all three repos' logs, is now in one place: `docs/owner-checklist.md` (shared doc): decisions to confirm (§44 first), checks only the owner can run (phase 4's check), accounts and services, legal, vendors, before the beta. CLAUDE.md says new owner items go there in the same commit. At the owner's request, phase 5 starts before phase 4's check is run; that's recorded on the checklist for the owner to confirm.
+
 ### 15 Nov 2026 · Shared docs synced: phase 4
 
 Decisions §44 (web search and artifacts, to be confirmed), the search and share-link service rows, the phase 4 open-source references and the feature map's note that Serper is dropped. The licence check allows `Zlib`, as in the other two repos. **For phase 5:** a screen for reports about shared pages (`shares.openReports` and `shares.decide` in Convex, admin only).
