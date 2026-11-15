@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 15 Nov 2026 · Shared docs synced: phase 2 prep
+
+Synced from `titan117-web`: Stripe and the users' own model keys checked against the vendors' docs in `external-services.md`; phase 2 references cloned and licence-checked in `open-source-references.md`. Nothing else changed here.
+
 ### 14 Nov 2026 · Phase 0 done: deployed behind staff sign-in
 
 Deployed at `titan117-pop.vercel.app` from `EcotechCore/titan117-pop`. Checked there: signed out, every page redirects to sign-in and back; the Clerk application is TITAN117 Staff with invite-only sign-up; the owner signed in. Two-factor is off by the explicit setting until Clerk Pro (decisions §37). A CI step now checks the repository settings on every run (`scripts/check-repo-settings.mjs`): `main` protected, rules applying to admins, every CI job a required check. The pull request rule isn't visible to that check and is confirmed by hand when settings change. Not checked: a customer account being refused.
