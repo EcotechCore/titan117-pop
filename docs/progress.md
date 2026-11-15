@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 15 Nov 2026 · Shared docs synced: phase 4
+
+Decisions §44 (web search and artifacts, to be confirmed), the search and share-link service rows, the phase 4 open-source references and the feature map's note that Serper is dropped. The licence check allows `Zlib`, as in the other two repos. **For phase 5:** a screen for reports about shared pages (`shares.openReports` and `shares.decide` in Convex, admin only).
+
 ### 15 Nov 2026 · Shared docs synced: the system voices
 
 Synced from `titan117-web`: decisions §43.10, read aloud keeps the system voices and Kokoro is not used (GPL inside). Nothing else changed here.
