@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 16 Nov 2026 · Phase 6: the folder agent (shared docs)
+
+Decisions §51, the embedding model under Hugging Face in external services, phase 6's open-source references (checked and cloned for reading), and phase 6 lines on the owner checklist (confirm §51, OCR's language files, the check with your own documents). Built in `titan117-desktop` on `phase-6-folder-agent`; nothing changed in this repo's code.
+
 ### 15 Nov 2026 · Shared docs synced: decisions §50 and the rewritten owner checklist
 
 Nothing changed in this repo's code.
