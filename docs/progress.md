@@ -5,6 +5,42 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 15 Nov 2026 · Shared docs synced: decisions §50 and the rewritten owner checklist
+
+Nothing changed in this repo's code.
+
+### 15 Nov 2026 · Owner checklist: Microsoft's runtime fetched, signing needed sooner
+
+The owner allowed fetching Microsoft's Visual C++ redistributable (done in `titan117-desktop`); Smart App Control blocked the unsigned installer, so code signing moves up on the checklist. Nothing changed in this repo's code.
+
+### 15 Nov 2026 · Phase 5: the Windows installer (shared docs)
+
+Decisions §49 and three lines on the owner checklist (confirm §49, OK to fetch Microsoft's runtime installer, a code signing certificate). Built in `titan117-desktop` on `phase-5-installer`; nothing changed in this repo's code.
+
+### 15 Nov 2026 · Phase 5: keep awake, checkpoints and notifications (shared docs)
+
+Decisions §48 and its line on the owner checklist. Built in `titan117-desktop` on `phase-5-awake`; nothing changed in this repo's code.
+
+### 15 Nov 2026 · Phase 5: offline (shared docs)
+
+Decisions §47 (how the app notices it's offline, cloud tasks stopping cleanly, what waits) and two lines on the owner checklist. Built in `titan117-desktop` on `phase-5-offline`; nothing changed in this repo's code.
+
+### 15 Nov 2026 · Phase 5: setup and health (shared docs)
+
+Decisions §46 (the first-launch wizard, the checklist, the health check, disk thresholds) and its line on the owner checklist. Built in `titan117-desktop` on `phase-5-setup`; nothing changed in this repo's code.
+
+### 15 Nov 2026 · Shared docs synced: phase 5 error reports
+
+Decisions §45 and the owner checklist. **Next here:** the error screens (groups, a group's reports, mark fixed) on `errorReports.groups`, `groupReports` and `markFixed`, once Clerk Pro and required two-factor are in place (§37).
+
+### 15 Nov 2026 · The owner checklist
+
+Every open item for the owner, from all three repos' logs, is now in one place: `docs/owner-checklist.md` (shared doc): decisions to confirm (§44 first), checks only the owner can run (phase 4's check), accounts and services, legal, vendors, before the beta. CLAUDE.md says new owner items go there in the same commit. At the owner's request, phase 5 starts before phase 4's check is run; that's recorded on the checklist for the owner to confirm.
+
+### 15 Nov 2026 · Shared docs synced: phase 4
+
+Decisions §44 (web search and artifacts, to be confirmed), the search and share-link service rows, the phase 4 open-source references and the feature map's note that Serper is dropped. The licence check allows `Zlib`, as in the other two repos. **For phase 5:** a screen for reports about shared pages (`shares.openReports` and `shares.decide` in Convex, admin only).
+
 ### 15 Nov 2026 · Shared docs synced: the system voices
 
 Synced from `titan117-web`: decisions §43.10, read aloud keeps the system voices and Kokoro is not used (GPL inside). Nothing else changed here.
