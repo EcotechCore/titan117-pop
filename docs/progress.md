@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 18 Nov 2026 · Decisions §44–§51 confirmed; production waits
+
+The owner reviewed and confirmed decisions §44 to §51 (web search and artifacts, error reports, setup, offline, keep awake and resume, the installer, the phase 4 leftovers and auto-update, the folder agent) and that phase 5 started before phase 4's check. One addition to §44: when asked to search on Google or another engine, Titan does that search in the visible browser (§44.12; the instruction is in the desktop app's prompt). Decided (§52): **production waits** until everything works locally; nothing built so far depends on it. The owner checklist now starts at step 3, trying it all locally.
+
 ### 16 Nov 2026 · Phase 6: the folder agent (shared docs)
 
 Decisions §51, the embedding model under Hugging Face in external services, phase 6's open-source references (checked and cloned for reading), and phase 6 lines on the owner checklist (confirm §51, OCR's language files, the check with your own documents). Built in `titan117-desktop` on `phase-6-folder-agent`; nothing changed in this repo's code.
