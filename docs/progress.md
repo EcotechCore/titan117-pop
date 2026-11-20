@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 20 Nov 2026 · Phase 6 done (shared docs)
+
+OCR's language files ship in the desktop app (decisions §51.8); phase 6 is done there. The owner's notes from 20 Nov 2026 are on the owner checklist. Nothing changed in this repo's code.
+
 ### 19 Nov 2026 · Dependencies updated
 
 All the Dependabot updates in one tested change: Next.js and eslint-config-next 16.4.6, React 19.3.1, @clerk/nextjs 7.9.26, ESLint 10, TypeScript 6.0.3 (7 waits for typescript-eslint), @types/node 24 (matches Node 24; not 26). TypeScript 6 no longer loads Node's types by itself, so the tsconfig lists them. Typecheck, lint, 25 tests, build and licences pass.
