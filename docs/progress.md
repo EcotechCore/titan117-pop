@@ -5,6 +5,38 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 20 Nov 2026 · Phase 7's check is met
+
+**The code builder fixed a set of real issues in a sample repo and opened a pull request** (roadmap phase 7). Run with `TITAN_PR_REPO=ispasdani/titan117-sample-shop pnpm eval:pr`, Claude Haiku 5.5 on the development key, $0.03.
+
+- **The sample repo:** `ispasdani/titan117-sample-shop`, private, made with the owner's OK. It's a small shop library whose tests pass but which has four real bugs, filed as issues #1–#4:
+  - #1, the cart total ignores quantities;
+  - #2, VAT rounding;
+  - #3, slugs keep accents (Romanian ș and ț included) and double dashes;
+  - #4, the shop counts as open on Sundays.
+- **What Titan did:** it read the code and handed the job to the coding engine. The engine fixed `src/shop.js`, added a test for each issue, and ran the tests. Titan then made the branch `fix/shop-issues-1-4`, committed, pushed and opened [pull request #5](https://github.com/ispasdani/titan117-sample-shop/pull/5). Every command, change, commit, push and the pull request went through approvals.
+- **Checked on GitHub, not from the model's word:**
+  - the pull request is open, by `ispasdani` (the user, through GitHub's CLI), with "Fixes #1" to "Fixes #4" (GitHub links all four issues);
+  - the commit is the user's, with `Co-authored-by: Titan117`;
+  - on the pushed branch, 12 of 12 tests pass, and each issue's own example passes a separate check;
+  - only `src/shop.js` and `test/shop.test.js` changed.
+- **Phase 7 stays open** for:
+  - the user's own coding tools (13.14);
+  - other machines (3.15);
+  - Seatbelt around OpenCode on macOS (needs a Mac);
+  - GitHub sign-in through our app (needs its registration);
+  - remote coding tasks (with phase 15).
+
+  The pull request stays open in the sample repo for the owner to look at.
+
+### 20 Nov 2026 · Phase 7: project memory, code review, open in your editor (shared docs)
+
+Shared docs synced: decisions §54 items 9–13, owner checklist. Nothing changed in the portal.
+
+### 20 Nov 2026 · Phase 7: git and the code builder screen (shared docs)
+
+Shared docs synced from `titan117-web`: decisions §54, the GitHub row in external services, and the owner checklist. Nothing changed in the portal.
+
 ### 20 Nov 2026 · Phase 7 started (shared docs)
 
 Shared docs synced from `titan117-web`: decisions §53 (the coding engine), the download row in external services, OpenCode's pinned commit, and new owner checklist lines. Phase 7 is built in `titan117-desktop`; nothing changed in the portal.
