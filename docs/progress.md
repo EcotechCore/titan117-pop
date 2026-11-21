@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 21 Nov 2026 · Phase 8: Save to GitHub (shared docs)
+
+Shared docs synced: decisions §56.16 and the GitHub row. Nothing changes in the portal.
+
 ### 21 Nov 2026 · Phase 8 started (shared docs)
 
 Shared docs synced: decisions §56 (the app builder for the web), the new external-services rows (Node.js, npm, Playwright's browsers, Cloudflare, Netlify, Vercel) and the owner checklist's phase 8 section. Nothing changes in the portal.
