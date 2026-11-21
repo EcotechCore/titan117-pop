@@ -7,6 +7,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 
 ### 21 Nov 2026 · Phase 8: shared docs synced
 
+Decisions §56.26–§56.27 and the hosts' Git connections row. Nothing changes in the portal.
+
+### 21 Nov 2026 · Phase 8: shared docs synced
+
 Decisions §56.17–§56.25 and the Convex row. Nothing changes in the portal.
 
 ### 21 Nov 2026 · GitHub App: Repository creation permission
