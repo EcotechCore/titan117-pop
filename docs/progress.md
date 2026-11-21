@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 21 Nov 2026 · Phase 9 started (shared docs)
+
+Shared docs synced from titan117-web's phase-start review: decisions §57 (the app builder for mobile and desktop, to be confirmed), the new external-services rows (Expo, the Android SDK, Apple, Google Play, Tauri, Windows Sandbox, UTM and Tart, Podman and Docker, Maestro, device farms), phase 9's references and a phase 9 section on the owner checklist. Nothing changes in the portal.
+
 ### 21 Nov 2026 · Phase 8's work merged (shared docs)
 
 #30 merged with titan117-web #35 and titan117-desktop #33; shared docs synced (the owner checklist now says to run the desktop app from `main`). Nothing changes in the portal.
