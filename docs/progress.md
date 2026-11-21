@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 21 Nov 2026 · GitHub App registered (shared docs)
+
+Shared docs synced: external services, decisions §55.9, owner checklist. Nothing changed in the portal.
+
 ### 21 Nov 2026 · Phase 7 done, except what waits outside the code (shared docs)
 
 Shared docs synced: decisions §55, external services, owner checklist. Nothing changed in the portal.
