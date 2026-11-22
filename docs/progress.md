@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 22 Nov 2026 · Phase 10 merged
+
+The phase 10 pull requests are merged into `main` in all three repos (web #38, desktop #36, pop #33). The owner checklist now says to run the desktop app from `main` for phases 9 and 10, and its "Where the code is" line is current. Secret scanning flagged a fake base64 test value in the sync test; it's built at run time now and allowlisted with its reason in the desktop repo's `.gitleaks.toml`.
+
 ### 22 Nov 2026 · Phase 10: the rest (shared docs)
 
 Copied from `titan117-web`: decisions §58.10–12 (`titan.ai`, another target, the sync core) and the owner checklist's additions. Nothing changes in the portal.
