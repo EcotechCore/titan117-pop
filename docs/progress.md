@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 22 Nov 2026 · Phase 12 started (shared docs)
+
+Shared docs copied from `titan117-web`: decisions §60 (the QA and SEO agents, to be confirmed), new vendor rows (PageSpeed Insights and CrUX, AI search visibility, Search Console, DataForSEO, Business Profile), phase 12's open-source checks and the owner checklist. Nothing changes in the portal.
+
 ### 22 Nov 2026 · Phase 11 done and merged (shared docs)
 
 Shared docs copied from `titan117-web`: the signed video webhook (decisions §59.13), the OpenRouter webhook facts, and the owner checklist (phase 11 done and merged; what to set before production). Nothing in the portal changes.
