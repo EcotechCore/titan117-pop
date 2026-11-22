@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 22 Nov 2026 · Phase 11: images and video (shared docs)
+
+Shared docs copied from `titan117-web`: decisions §59.13 (images and video through credits, video jobs charged when they end, only their owner may follow them), the `proxyCalls` row's new job id, the OpenRouter media row and the owner checklist. Nothing in the portal changes.
+
 ### 22 Nov 2026 · Phase 11 started (shared docs)
 
 Shared docs copied from `titan117-web`: the phase 11 start (decisions §59, to be confirmed: agents as files, built-in agents, parts handed between agents, smart routing, Compare, agents and skills on request, media next), the OpenRouter media row in `external-services.md`, phase 11's references with licences checked, and the owner checklist's phase 11 section. Nothing in the portal changes.
