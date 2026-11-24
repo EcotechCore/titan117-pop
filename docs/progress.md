@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 24 Nov 2026 · Phase 13 started (shared docs)
+
+The shared docs are copied from `titan117-web`: decisions §61 (automation: schedules, web watches and recordings, all on the laptop; to be confirmed), three new rows in `external-services.md`, phase 13's references and a phase 13 section on the owner checklist. No new Convex tables, so nothing changes in the portal.
+
 ### 22 Nov 2026 · Phase 12 merged (shared docs)
 
 The phase 12 pull requests are merged in all three repos (web #41, desktop #39, pop #36); the owner checklist says to run the desktop app from `main`. Nothing changes in the portal.
