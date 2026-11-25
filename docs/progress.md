@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 25 Nov 2026 · Phase 15 started (shared docs)
+
+Phase 15, remote control and chat channels, started in the web and desktop repos (decisions §64, to be confirmed). Nothing changes in the portal yet. One finding concerns it: Convex never sees Clerk's `fva` claim, so the staff check `hasSecondFactor` can't pass with a real sign-in (it fails closed); §64.4 gives the mechanism that replaces it, which comes with the portal's first Convex calls.
+
 ### 25 Nov 2026 · Phase 14's newsletters, analytics and video studio merged
 
 The pull requests are merged in all three repos (web #58 first, then desktop #53 and pop #45 after their docs check). Run the desktop app from `main`. Phase 14 stays in progress: a real newsletter send, real visits, a post published from its reminder (the phone half waits for phase 15) and the drag-and-drop timeline editor; decisions §62 and §63 wait for the owner.
