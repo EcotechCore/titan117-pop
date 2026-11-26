@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 26 Nov 2026 · Phase 15, the rest (shared docs copy)
+
+Shared docs copied from `titan117-web`: decisions §65 (sync between laptops with conversations, laptop-only answers after a second factor, the staff check through Convex, Slack files). The portal's own proxy already reads the second factor straight from Clerk; its data now waits only on Convex's `requireAdmin`, which works once staff confirm a second factor (`staff.confirmSecondFactor`, wired with the portal's screens in phase 5).
+
 ### 25 Nov 2026 · Phase 15 started (shared docs)
 
 Phase 15, remote control and chat channels, started in the web and desktop repos (decisions §64, to be confirmed). Nothing changes in the portal yet. One finding concerns it: Convex never sees Clerk's `fva` claim, so the staff check `hasSecondFactor` can't pass with a real sign-in (it fails closed); §64.4 gives the mechanism that replaces it, which comes with the portal's first Convex calls.
