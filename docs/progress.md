@@ -5,6 +5,10 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 **Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Phase 16 (26 Nov 2026):** the marketplace's staff functions are in Convex; its screen comes with the portal's staff screens. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
 
+### 26 Nov 2026 · Phase 16: the rest (shared docs copy)
+
+Shared docs copied from `titan117-web` (decisions §66.21–26). The portal's marketplace screen waits for its staff screens: Convex must first trust the staff Clerk application (§66.25).
+
 ### 26 Nov 2026 · Phase 16's second part merged
 
 The pull requests are merged in all three repos (web #64 first, then desktop #59 and pop #51 after their docs check passed), and the development Convex deployment has the new tables. Run the desktop app from `main`. Phase 16 stays in progress: fork and publish, larger tools from the coding engine, MCP servers and workflows from the marketplace, install any open-source project, other hosts and the portal's screen; decisions §66 waits for the owner.
