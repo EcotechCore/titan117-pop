@@ -2,8 +2,12 @@
 
 The product owner portal's own log (the shared docs are copied from `titan117-web`). Update this file in the same commit as the work, newest first. Phases are in the [roadmap](01-launch-roadmap-v1.md); this repo is part of phase 0 (an empty app deployed behind two-factor) and phase 5 (the error report screens).
 
-**Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
+**Now:** phase 0 is done (14 Nov 2026): the empty portal is live behind staff sign-in. **Phase 16 (26 Nov 2026):** the marketplace's staff functions are in Convex; its screen comes with the portal's staff screens. **Next step:** phase 5 brings the first screens; before it, Clerk Pro with required two-factor and the removal of `PORTAL_TWO_FACTOR` (decisions §37).
 ## Log
+
+### 26 Nov 2026 · Phase 16 started (shared docs copy)
+
+Shared docs copied from `titan117-web`: decisions §66, the marketplace and add-ons. Convex has the staff functions for the marketplace (`market.adminItems`, `market.setVerified`, `market.decide`), behind `requireAdmin`; the portal's screen for them comes with its staff screens (owner checklist). Nothing else changes in the portal.
 
 ### 26 Nov 2026 · Phase 15, the rest (shared docs copy)
 
