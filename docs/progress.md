@@ -7,7 +7,7 @@ The product owner portal's own log (the shared docs are copied from `titan117-we
 
 ### 27 Nov 2026 · Desktop layout v2 with Azure (shared docs copy)
 
-The shared docs copied from `titan117-web`: decisions §67 (the desktop's new look, to be confirmed), design.md 0.3 and the owner checklist. Nothing in the portal changes; it keeps its own look.
+The shared docs copied from `titan117-web`: decisions §67 (the desktop's new look, to be confirmed), design.md 0.3 and the owner checklist. Nothing in the portal changes; it keeps its own look. The owner kept the Azure gradient as it is, white text included (§67.9).
 
 ### 26 Nov 2026 · Phase 16's rest merged
 
